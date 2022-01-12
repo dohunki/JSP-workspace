@@ -54,3 +54,7 @@
 0:0:0:0:0:0:0:1 - - [12/Jan/2022:18:11:40 +0900] "GET /Deployment/login HTTP/1.1" 200 34
 0:0:0:0:0:0:0:1 - - [12/Jan/2022:18:11:55 +0900] "GET /Deployment HTTP/1.1" 302 -
 0:0:0:0:0:0:0:1 - - [12/Jan/2022:18:11:55 +0900] "GET /Deployment/ HTTP/1.1" 200 158
+127.0.0.1 - - [12/Jan/2022:18:29:11 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [12/Jan/2022:18:29:14 +0900] "GET /Deployment/login HTTP/1.1" 200 34
+0:0:0:0:0:0:0:1 - - [12/Jan/2022:18:56:28 +0900] "GET /Deployment/expression_test.jsp HTTP/1.1" 200 275
+0:0:0:0:0:0:0:1 - - [12/Jan/2022:19:05:14 +0900] "GET /Deployment/scriptlet_test.jsp HTTP/1.1" 200 269
