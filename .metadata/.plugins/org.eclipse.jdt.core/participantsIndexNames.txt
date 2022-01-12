@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+C:\JAVA\JSP-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2830615768.index
+\HelloWorld\src
+C:\JAVA\JSP-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\614459258.index
+\HelloWorld\src
+C:\JAVA\JSP-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2620854308.index
+\Deployment\src
