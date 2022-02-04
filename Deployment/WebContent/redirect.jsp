@@ -9,7 +9,7 @@
 <body>
 <%
 	response.sendRedirect("index.jsp");
-// index.jsp 내용 실행 후, 주소창이 index.jsp로 바뀜
 %>
+<!-- redirect.jsp로 요청하자마자 index.jsp 내용 실행 후, 주소창이 index.jsp로 바뀜 -->
 </body>
 </html>

@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+<!-- jsp에서 주석은 ctrl+shift+/  -->
 <!-- 정적 인클루드 : 미리 컴파일 해둠, 자주 변경되지 않을 때 -->
 <%@ include file= "copyright.txt" %>
 <br>

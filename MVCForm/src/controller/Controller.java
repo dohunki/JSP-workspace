@@ -24,8 +24,7 @@ public class Controller extends HttpServlet {
 		if(action== null) {
 			// 액션 값이 없을 경우 잘못된 경우로 다시 기본페이지로 보냄
 			request.getRequestDispatcher("/index.jsp").forward(request, response);
-		}
-		else if(action.equals("login")) {
+		} else if(action.equals("login")) {
 			request.getRequestDispatcher("/login.jsp").forward(request, response);
 		}
 	}
@@ -35,8 +34,7 @@ public class Controller extends HttpServlet {
 		if(action== null) {
 			// 액션 값이 없을 경우 잘못된 경우로 다시 기본페이지로 보냄
 			request.getRequestDispatcher("/index.jsp").forward(request, response);
-		}
-		else if(action.equals("dologin")) {
+		} else if(action.equals("dologin")) {
 			String email= request.getParameter("email");
 			String password= request.getParameter("password");
 			request.setAttribute("email", email);

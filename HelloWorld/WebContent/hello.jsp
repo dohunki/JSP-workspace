@@ -8,14 +8,14 @@
 </head>
 <body>
 	<h1>JSP 페이지</h1>
-	<!-- 자바 여러줄 코드 작성하는 스크립틀릿
-	Window=>Preferences=>Workspace=>Refresh using 선택-->
+	<!-- Window=>Preferences=>Workspace=>Refresh using 선택하면 vs code에서 작성한 내용 바로 적용 -->
+	<!-- 자바 여러 줄 코드 작성하는 스크립틀릿, 화면에 출력하려면 out.println을 사용 --> 
 	<% 
 		String text=  "오늘의 날짜는: ";
-		out.println(text); // out.println을 사용하여 화면출력
+		out.println(text); 
 	%>
 
-	<!-- 자바 한 줄 코드만 작성하는 Express 태그   화면에 바로 출력-->
+	<!-- 자바 한 줄 코드만 작성하는 Express 태그, 화면에 바로 출력-->
 	<%=new java.util.Date() %>
 </body>
 </html>

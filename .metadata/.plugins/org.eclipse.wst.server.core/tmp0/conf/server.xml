@@ -152,7 +152,9 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\JAVA\JSP-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\JAVA\JSP-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\TODO" path="/TODO" reloadable="true" source="org.eclipse.jst.jee.server:TODO"/></Host>
+      <Context docBase="C:\JAVA\JSP-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\JAVA\JSP-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\CONTACTS" path="/CONTACTS" reloadable="true" source="org.eclipse.jst.jee.server:CONTACTS">
+<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="20" maxIdle="5" maxWait="10000" name="jdbc/demo" password="1234" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/demo?useSSL=false" username="root"/>
+</Context></Host>
     </Engine>
   </Service>
 </Server>

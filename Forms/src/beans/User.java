@@ -38,8 +38,8 @@ public class User {
 	
 	// 입력된 필드변수들의 값이 유효한지 유효성 검사
 	public boolean validate() {
-		// 정규 표현식으로 자바문자열은 \\ 역슬레쉬 두 번 적어야 한다. \w+ 모든문자(숫자포함)
-		if(!email.matches("\\w+@\\w+\\.\\w+")) { // \\문자+@\\아무문자+\\.\\문자 가 들어간다.
+		// 정규 표현식으로 자바문자열은 \\ 역슬레쉬 두 번 적어야 한다. \w+ 모든문자(숫자포함) 1개 이상
+		if(!email.matches("\\w+@\\w+\\.\\w+")) { // \\문자1개이상@\\문자1개이상+\\.\\문자1개이상 가 들어간다.
 			message= "Invalid email";
 			return false;
 		}
@@ -54,7 +54,6 @@ public class User {
 		// 위의 검사들을 모두 통과하면 유효성 메서드 true로 리턴한다.
 		return true;
 	}
-	
 }
 
 

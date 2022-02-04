@@ -6,7 +6,7 @@ public class User {
 	private String userName;
 	private String password;
 	
-	public User() {} //기본 생성자는 자바 빈용으로 필요
+	public User() {} //기본 생성자는 자바빈용으로 필요
 	
 	public User(String firstName, String lastName, String userName, String password) {
 		super();

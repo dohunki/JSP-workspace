@@ -10,7 +10,7 @@
 <!-- jsp에 자바 빈 객체 만들기 : id는 객체의 이름, scope는 범위 -->
 <jsp:useBean id= "user2" class= "beans.User" scope= "page"/>
 
-<!-- 파라메터를 통해 값을 입력 -->
+<!-- 파라메터를 통해 값을 입력: 검색창에서 (?email=이메일&password=패스워드)를 추가하여 입력 -->
 <jsp:setProperty property="*" name="user2"/>
 
 이메일 : <%= user2.getEmail() %>

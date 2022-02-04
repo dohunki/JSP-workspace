@@ -13,13 +13,13 @@ import javax.servlet.http.HttpServletResponse;
  * Servlet implementation class HelloWorld
  */
 @WebServlet("/hello") // url 요청
-public class HelloWorld extends HttpServlet { //http프로토콜로 통신해주는 클래스가 HttpServlet이다.
+public class HelloWorld extends HttpServlet { // http프로토콜로 통신해주는 클래스가 HttpServlet이다.
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public HelloWorld() {
+    public HelloWorld() { // 생성자
         super();
         // TODO Auto-generated constructor stub
     }
@@ -28,7 +28,7 @@ public class HelloWorld extends HttpServlet { //http프로토콜로 통신해주
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// 주소창에서 요청시 doGet메서드로 들어온다.
+		// 주소창에서 요청한 주소가 doGet메서드로 들어온다.
 		// get 요청(request, req) ,  응답(response, res) , 컨텍스트패스= 프로젝트명
 //		response.getWriter().append("Served at: ").append(request.getContextPath());
 

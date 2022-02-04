@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-// HttpServlet을 상속한 클래스 => servlet �
+// HttpServlet을 상속한 클래스 => servlet
 @WebServlet("/hi") // 주소창에 localhost:8090/HelloWorld/hi 로 입력하는 것과 동일
 public class Hijsp extends HttpServlet {
 	 // 경고가 뜰때, serialVersion추가하면 됨
@@ -17,7 +17,7 @@ public class Hijsp extends HttpServlet {
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		// get은 url 주소 요청시
+		// get은 주소(url) 요청시
 //		super.doGet(req, resp);
 		PrintWriter out= resp.getWriter(); // ����
 		out.println("<html>");
@@ -27,7 +27,7 @@ public class Hijsp extends HttpServlet {
 
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		// form 요청시 예)로그인 (주소창에 표시되지 않음)
+		// form 데이터 요청시 (주소(url)창에 표시되지 않음) 예)로그인 
 		super.doPost(req, resp);
 	}
 	 
